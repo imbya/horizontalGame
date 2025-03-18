@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://dfghbqh2mhpxf"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_js4c5"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = 63.0
+offset_top = 48.0
+offset_right = 103.0
+offset_bottom = 88.0
+scale = Vector2(4.51641, 4.51641)
+texture = SubResource("CanvasTexture_js4c5")

@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://47jjv2h204j5"]
+
+[ext_resource type="Script" path="res://script/health_changed_label.gd" id="1_mi3ye"]
+
+[node name="HealthChangedLabel" type="Label"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mi3ye")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.4
+one_shot = true
+autostart = true
